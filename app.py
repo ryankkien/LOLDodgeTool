@@ -1,5 +1,4 @@
 from fastai.tabular.all import *
-from PIL import Image
 import gradio as gr
 def predictBlueWin(blueTop, blueJungle, blueMid, blueADC, blueSupport, redTop, redJungle, redMid, redADC, redSupport):
     learn = load_learner('export.pkl')
